@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(37, 47, 61);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#AWSlog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+#AWSlog img {
+    max-width: 100%;
+    height: auto;
+}
+
+.lern-text {
+    color: white;
+    font-size: 100px;
+    margin: 0;
+    position: relative;
+    top: -120px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* 버튼 사이 간격 조정 */
+    margin-top: 30px; /* 버튼을 전체적으로 아래로 내림 */
+    border-radius: 5px;
+    padding: 10px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    margin-left: 10px;
+}
+
+.lern-button {
+    background-color: rgb(45, 156, 219); /* 버튼 배경색 */
+    color: white; /* 텍스트 색 */
+    border: none;
+    border-radius: 10px; /* 둥근 모서리 */
+    padding: 10px 20px; /* 버튼 크기 */
+    font-size: 18px; /* 텍스트 크기 */
+    cursor: pointer; /* 마우스 커서 모양 */
+    transition: background-color 0.3s ease; /* 배경색 변경 애니메이션 */
+}
+
+.lern-button:hover {
+    background-color: rgb(35, 126, 189); /* 호버 시 배경색 */
+}
